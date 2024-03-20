@@ -1,3 +1,4 @@
+package Leetcode_sol;
 import java.util.*;
 
 class Solution_118{
@@ -37,5 +38,6 @@ public static void main(String[] args) {
     int numRows = sc.nextInt();
     List<List<Integer>> pascal = generate(numRows); // Corrected declaration of 'pascal'
     System.out.println("Pascal's triangle with " + numRows + " rows is: \n " + pascal);
+    sc.close();
 }
 }
