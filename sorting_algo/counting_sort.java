@@ -1,5 +1,15 @@
 package sorting_algo;
-import java.util.Arrays;
+
+//steps - 
+//1. find the maximum element in the array(nputArray)
+//2. create a new array(count_array) of size maximum element
+//3. store the count of each number in the array in the count array
+//4. update the value in the count_array with cummulative sum of elements in the input array
+//5. create a new array output_array and store the values by traversing from the last element in the input_array
+//6. update the output_array - 
+// - output_array(count_array(input_array(i)) - 1) = input_array(i)
+//7. decrement count_array
+//8. return the sorted array
 
 public class counting_sort {
     public static int[] countSort(int[] inputArray) {
@@ -7,7 +17,7 @@ public class counting_sort {
         int M = 0;
  
         for (int i = 0; i < N; i++) {
-            M = Math.max(M, inputArray[i]);
+            M = Math.max(M, inputArray[i]); 
         }
  
         int[] countArray = new int[M + 1];
