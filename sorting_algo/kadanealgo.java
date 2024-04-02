@@ -1,3 +1,4 @@
+package sorting_algo;
 //Largest Sum Contiguous Subarray (Kadane’s Algorithm)
 
 public class kadanealgo {
@@ -16,7 +17,8 @@ public class kadanealgo {
     }
 
     public static void main(String[] args) {
-        int a[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        // int a[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int a[] = {-2,1,-3,4,-1,2,1,-5,4};
         System.out.println("Maximum contiguous subarray sum is " + maxSubArraySum(a));
     }
 }
