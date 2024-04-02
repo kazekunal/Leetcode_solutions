@@ -1,6 +1,5 @@
 package Leetcode_sol;
 import java.util.Arrays;
-import java.util.PriorityQueue;
 
 class solution_506{
     public static String[] findRelativeRanks(int[] score) {
