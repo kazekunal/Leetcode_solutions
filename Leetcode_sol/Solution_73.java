@@ -1,7 +1,7 @@
 package Leetcode_sol;
 
 public class Solution_73 {
-        public void setZeroes(int[][] matrix) {
+        public static void setZeroes(int[][] matrix) {
           final int m = matrix.length;
           final int n = matrix[0].length;
           boolean F_Row = false;
@@ -42,5 +42,16 @@ public class Solution_73 {
           if (F_col)
             for (int i = 0; i < m; ++i)
               matrix[i][0] = 0;
+
+        for(int i = 0; i<m; i++){
+            for(int j = 0; j<n; j++){
+                System.out.print(matrix[i][j]);
+            }
+            System.out.println();
+        }
+        }
+        public static void main(String[] args) {
+            int[][] my_matrix = {{1,0,5},{2,7,0},{4,5,5}};
+            setZeroes(my_matrix);
         }
       }
