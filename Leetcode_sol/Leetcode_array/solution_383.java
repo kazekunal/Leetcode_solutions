@@ -1,4 +1,5 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
+
 public class solution_383 {
     public static boolean canConstruct(String ransomNote, String magazine){
         int[] count = new int[26];

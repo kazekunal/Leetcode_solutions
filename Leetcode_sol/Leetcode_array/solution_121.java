@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 // public solution_121{
 //     public static int max_profit(int[] prices) {
 //         int max_profit = 0;

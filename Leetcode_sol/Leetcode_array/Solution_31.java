@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 public class Solution_31 {
     public static void next_perm(int[] nums) {

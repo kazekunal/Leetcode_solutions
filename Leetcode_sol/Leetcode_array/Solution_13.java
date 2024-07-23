@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 import java.util.*;
 
 // first approach to solve this using simple for loop and if else condition blocks

@@ -1,5 +1,5 @@
 
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 import java.util.*;
 
 class Leetcode_66{

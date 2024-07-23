@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 import java.util.*;
 
@@ -13,7 +13,7 @@ public class solution_56 {
         result.add(curr);
 
         for(int[] a: nums){
-            int curr_start = curr[0];
+            // int curr_start = curr[0];
             int curr_end = curr[1];
             int next_start = a[0];
             int next_end = a[1];

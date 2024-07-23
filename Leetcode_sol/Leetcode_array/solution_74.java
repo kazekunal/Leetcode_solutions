@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 public class solution_74 {
     public static boolean searching(int[][] matrix, int target) {

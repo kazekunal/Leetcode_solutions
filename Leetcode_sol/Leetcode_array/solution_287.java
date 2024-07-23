@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 //tortoise and hare method - tortoise - 1 skip hare - 2 skips
 

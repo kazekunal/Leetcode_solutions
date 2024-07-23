@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 public class solution_75 {
     public static void sort_col(int[] nums){

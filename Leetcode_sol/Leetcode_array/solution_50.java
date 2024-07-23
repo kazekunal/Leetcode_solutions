@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 public class solution_50 {
     public static double pow(int x, int n) {
@@ -18,6 +18,6 @@ public class solution_50 {
         return pow(x * x, n/2);
     }
     public static void main(String[] args) {
-        System.out.println(pow(2, 3));
+        System.out.println(pow(2, -2));
     }
 }

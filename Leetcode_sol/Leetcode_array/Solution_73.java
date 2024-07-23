@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 public class Solution_73 {
         public static void setZeroes(int[][] matrix) {

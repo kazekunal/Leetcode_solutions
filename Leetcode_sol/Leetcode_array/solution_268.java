@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 public class solution_268 {
     public static void missingnumber(int[] arr){

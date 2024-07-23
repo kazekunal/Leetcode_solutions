@@ -1,4 +1,4 @@
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 //Pascal's triangle has 3 types of problems :
 //1. Given rows and columns, find the number in the triangle -> also similar to ncr method
