@@ -1,6 +1,6 @@
 //make the string great!!
 
-package Leetcode_sol;
+package Leetcode_sol.Leetcode_array;
 
 class solution_1544{
     public static String makeGood(String s) {
