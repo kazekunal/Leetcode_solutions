@@ -38,7 +38,7 @@ public class intersectionpt {
     }
 
     public static int better_intersection(Node head) {
-        //
+        //this method uses recursion and backtracking
         return 0;
     }
 
