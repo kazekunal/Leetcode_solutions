@@ -65,6 +65,34 @@ public class loop_detect {
         return cnt;
     }
 
+    //tortoise and hare algo
+    public static int start_loop(Node head) {
+        if (head == null || head.next == null) {
+            return 0; // no loop possible
+        }
+    
+        Node slow = head;
+        Node fast = head;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                break; // exit the loop when slow and fast meet
+            }
+        }
+    
+        if (fast == null || fast.next == null) {
+            return 0; // no loop found
+        }
+    
+        slow = head;
+        while(slow != fast){
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow.data;
+    }
+
     public static void print(Node head) {
         Node temp = head;
         while(temp!= null){
@@ -78,15 +106,18 @@ public class loop_detect {
         head.next = new Node(2);
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
-        head.next.next.next.next = new Node(5,head);
+        head.next.next.next.next = new Node(5,head.next.next);
 
         // print(head);
 
-        System.out.println(Loop_hash(head));
+        // System.out.println(Loop_hash(head));
 
-        System.out.println(Loop(head)); 
+        // System.out.println(Loop(head)); 
 
-        System.out.println(LenghtofLoop(head));
+        // System.out.println(LenghtofLoop(head));
+
+        int ans = start_loop(head);
+        System.out.println(ans);
     }
 }
 
