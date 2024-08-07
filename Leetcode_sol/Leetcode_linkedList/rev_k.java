@@ -18,8 +18,9 @@ class Node{
 public class rev_k {
 
     public static Node find_kth(Node temp, int k) {
-        while(temp!=null && k>0 ){
-            k -= 1;
+        int a = k-1;
+        while(temp!=null && a>0 ){
+            a -= 1;
             temp = temp.next;
         }
         return temp;
@@ -46,7 +47,7 @@ public class rev_k {
                 prevNode.next = kthNode;
             }
             prevNode = temp;
-            temp = nextNode;
+            temp = nextNode; 
         }
         
         return head;
