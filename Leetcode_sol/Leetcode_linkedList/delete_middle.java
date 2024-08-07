@@ -1,7 +1,5 @@
 package Leetcode_sol.Leetcode_linkedList;
 
-import java.security.DrbgParameters.NextBytes;
-
 class Node {
     int data;
     Node next;
