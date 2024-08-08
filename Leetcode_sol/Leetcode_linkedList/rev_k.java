@@ -17,6 +17,11 @@ class Node{
 
 public class rev_k {
 
+    //hard level leetcode problem due to the presence of 3 functions - 
+    //1. finding the kth node
+    //2. reversing the broken path of linkedlist
+    //3. joining the reversed linkedlist
+
     public static Node find_kth(Node temp, int k) {
         int a = k-1;
         while(temp!=null && a>0 ){
