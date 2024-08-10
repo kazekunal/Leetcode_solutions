@@ -52,7 +52,8 @@ public class rotate_LL {
         if(k == 0) return head;
         
         tail = head;
-        for(int i = 0; i<len-k-1; i++){
+        for(int i = 0; i<len-k-1; i++) //i<len-k-1 is the imp step
+        { 
             tail = tail.next;
         }
 
