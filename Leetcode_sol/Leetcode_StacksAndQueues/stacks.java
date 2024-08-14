@@ -16,10 +16,10 @@ public class stacks {
          return st[top];
 
     }
-    public static int[] pop(int[] st, int top) {
-        if(top == -1) return null;
+    public static int pop(int[] st, int top) {
+        if(top == -1) return 0;
         top = top-1;
-        return st;
+        return st[top];
     }
     public static int size(int top) {
         return top+1;
