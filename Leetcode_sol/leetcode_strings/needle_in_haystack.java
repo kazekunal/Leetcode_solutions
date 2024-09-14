@@ -79,6 +79,8 @@ public static int kmp(String needle, String haystack) {
         return lps;
     }
 
+    
+
     public static void main(String[] args) {
         System.out.println(index("wor", "helloworld"));
         System.out.println(kmp("sad", "butsad"));
