@@ -1,13 +1,18 @@
 package Leetcode_sol.codechef;
 
-public class tasty {
-    public static int abs_diff(int n, int s){
-        if(s == 0) return 0;
-        if(s == 1) return 1;
-        int t1,t2 = 0;
+import java.util.Scanner;
 
-    }
+public class tasty {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i = 0; i<n;i++){
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int t1 = Math.min(a, b);
+            int t2 = b - t1;
+            int max = Math.abs(t1 - t2); 
+            System.out.println(max);
+        }
     }
 }
