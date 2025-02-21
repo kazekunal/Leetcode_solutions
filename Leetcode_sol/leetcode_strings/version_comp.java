@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class version_comp {
     public static int version(String a, String b){
-        String[] v1 = a.split("\\.");
+        String[] v1 = a.split("\\."); //converting the string to divided array - 1.1.0 -> [1,1,0]
         String[] v2 = b.split("\\.");
 
-        int max = Math.max(v1.length, v2.length);
+        int max = Math.max(v1.length, v2.length); //taking the max of both to compare
 
         for(int i = 0; i<max; i++){
             int num1 = (i<v1.length)? Integer.parseInt(v1[i]):0;
