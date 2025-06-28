@@ -1,7 +1,5 @@
 package Leetcode_sol.leetcode_strings;
 
-import java.util.Stack;
-
 public class depth_paran {
     public static int depth(String s){
         // Stack<Character> st = new Stack<>();
