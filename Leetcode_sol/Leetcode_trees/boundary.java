@@ -26,7 +26,7 @@ public class boundary {
         ArrayList<Integer> tmp = new ArrayList<>();
         Node curr = root.right;
         while(curr != null){
-           if(isleaf(curr) == false) res.add(curr.data);
+           if(isleaf(curr) == false) tmp.add(curr.data);
            if(curr.right != null) curr = curr.right;
            else curr = curr.left; 
         } 
