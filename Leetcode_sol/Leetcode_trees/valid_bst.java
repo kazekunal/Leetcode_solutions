@@ -9,7 +9,7 @@ class Node{
     }
 }
 
-public class flatten_better {
+public class valid_bst {
 
     public static boolean isvalid(Node root){
         return helper(root, null, null);
@@ -22,9 +22,9 @@ public class flatten_better {
 
         if(high != null && root.data >= high) return false;
 
-        boolean treeleft = helper(root.left, low, high);
+        boolean treeleft = helper(root.left, low, root.data);
 
-        boolean treeright = helper(root.right, low, high);
+        boolean treeright = helper(root.right, root.data, high);
 
         return treeleft && treeright;
 
