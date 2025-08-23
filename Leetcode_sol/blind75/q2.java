@@ -1,14 +1,13 @@
 package Leetcode_sol.blind75;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 // two sum
 
 public class q2 {
 
     public static int[] twosum(int[] nums, int target){
-        HashMap<Integer,Integer> st = new HashMap<>();
+        HashMap<Integer,Integer> st = new HashMap<>(); //hashset used here
 
         for(int i = 0; i<nums.length; i++){
             int comp = target - nums[i];
